@@ -1,0 +1,9 @@
+\# Sistema de Gestión "Mi Tienda" - Examen Parcial 2026 
+Aplicación web dinámica desarrollada para la materia \*\*Diseño Multimedial y Programación Web II\*\*. 
+## 🚀 Descripción El sistema es un panel de gestión interna (\*backoffice\*) que permite administrar el inventario de productos y el acceso de usuarios administradores mediante una arquitectura de 3 capas. 
+
+## 🛠️ Tecnologías utilizadas - \*\*Backend:\*\* PHP 8.x (POO, \`$\_SESSION\`, \`$\_COOKIE\`, Prepared Statements) - \*\*Base de Datos:\*\* MySQL / MariaDB - \*\*Frontend:\*\* HTML5, CSS3, Bootstrap 5.3 (CDN) - \*\*Servidor Local:\*\* XAMPP (Apache) 
+
+## 📋 Funcionalidades principales - \*\*Autenticación:\*\* Login seguro (\`login.php\`) y cierre de sesión (\`logout.php\`). - \*\*Control de Acceso:\*\* Restricción de páginas privadas mediante variables de sesión. - \*\*CRUD Completo de Productos:\*\* - \*\*Create:\*\* Alta de productos (\`agregar.php\`). - \*\*Read:\*\* Listado general en panel principal (\`index.php\`). - \*\*Update:\*\* Edición de precio, nombre y stock (\`editar.php\`). - \*\*Delete:\*\* Baja de productos (\`eliminar.php\`). 
+
+## ⚙️ Instrucciones de Instalación 1\. Clonar o descargar este repositorio en la carpeta \`htdocs\` de XAMPP (\`C:\\xampp\\htdocs\\mi\_tienda\`). 2\. Iniciar los servicios de \*\*Apache\*\* y \*\*MySQL\*\* desde XAMPP Control Panel. 3\. Ingresar a \`http://localhost/phpmyadmin\` e importar el archivo \`mi\_tienda.sql\`. 4\. Abrir la aplicación en el navegador ingresando a: \`http://localhost/mi\_tienda/login.php\`. 5\. \*\*Credenciales de prueba:\*\* - \*\*Usuario:\*\* \`admin\` - \*\*Contraseña:\*\* \`1234\`
